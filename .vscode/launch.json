@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Run C++",
+      "name": "Run C++ (current file)",
       "type": "cppdbg",
       "request": "launch",
       "program": "${fileDirname}/${fileBasenameNoExtension}",
@@ -10,9 +10,9 @@
       "stopAtEntry": false,
       "cwd": "${fileDirname}",
       "environment": [],
-      "externalConsole": false,
       "MIMode": "lldb",
-      "preLaunchTask": "Build C++"
+      "console": "integratedTerminal",
+      "preLaunchTask": "build-current-file"
     }
   ]
 }
